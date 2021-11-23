@@ -1,5 +1,25 @@
 import {useFormik} from 'formik';
 
+const validate = values => {
+    const errors = {};
+
+    if (!values.name) {
+        errors.name = 'Обязательное поле!';
+    } else if (values.name.length < 2) {
+        errors.name = 'Минимум 2 символа для заполнения!';
+    } else if (values.name.length > 20) {
+        errors.name = 'Максимум 20 символов для заполнения!';
+    }
+    
+    if (!values.email) {
+        errors.email = 'Обязательное поле!';
+    } else if (  !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)) {
+        errors.email = 'Неправильный e-mail адрес';
+    }
+
+    return errors;
+}
+
 const Form = () => {
 
     const formik = useFormik({
@@ -13,7 +33,7 @@ const Form = () => {
         },
         onSubmit: values => console.log(JSON.stringify(values, null, 2))
     })
-    
+
     return (
         <form className="form" onSubmit={formik.handleSubmit}>
             <h2>Отправить пожертвование</h2>
