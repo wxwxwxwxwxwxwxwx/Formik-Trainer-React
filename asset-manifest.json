@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Formik-Trainer-React/static/css/main.6f2e7ae7.chunk.css",
+    "main.js": "/Formik-Trainer-React/static/js/main.32309967.chunk.js",
+    "main.js.map": "/Formik-Trainer-React/static/js/main.32309967.chunk.js.map",
+    "runtime-main.js": "/Formik-Trainer-React/static/js/runtime-main.511076a8.js",
+    "runtime-main.js.map": "/Formik-Trainer-React/static/js/runtime-main.511076a8.js.map",
+    "static/js/2.d5df9986.chunk.js": "/Formik-Trainer-React/static/js/2.d5df9986.chunk.js",
+    "static/js/2.d5df9986.chunk.js.map": "/Formik-Trainer-React/static/js/2.d5df9986.chunk.js.map",
+    "index.html": "/Formik-Trainer-React/index.html",
+    "static/css/main.6f2e7ae7.chunk.css.map": "/Formik-Trainer-React/static/css/main.6f2e7ae7.chunk.css.map",
+    "static/js/2.d5df9986.chunk.js.LICENSE.txt": "/Formik-Trainer-React/static/js/2.d5df9986.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.511076a8.js",
+    "static/js/2.d5df9986.chunk.js",
+    "static/css/main.6f2e7ae7.chunk.css",
+    "static/js/main.32309967.chunk.js"
+  ]
+}
